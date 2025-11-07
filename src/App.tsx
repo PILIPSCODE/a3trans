@@ -228,7 +228,7 @@ export default function App() {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                  <input value={date} onChange={(e) => setDate(e.target.value)} required type="date" className="rounded border px-3 py-2" />
+                  <input value={date} onChange={(e) => setDate(e.target.value)} required type="date" className="rounded max-md:w-full border px-3 py-2" />
                   <input value={city} onChange={(e) => setCity(e.target.value)} required placeholder="Kota tujuan (misal: Solo)" className="rounded border px-3 py-2" />
                 </div>
 
