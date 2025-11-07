@@ -198,7 +198,6 @@ export default function App() {
         </section>
 
         <div className="mt-4 px-6">
-          <h6 className="font-medium">Video perjalanan</h6>
           <div className="mt-2 grid md:grid-cols-2   gap-3">
             <video src="/assets/video1.mp4" controls className="w-full h-96 rounded bg-black" />
             <video src="/assets/video2.mp4" controls className="w-full h-96 rounded bg-black" />
