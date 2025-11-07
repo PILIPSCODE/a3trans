@@ -201,6 +201,7 @@ export default function App() {
           <div className="mt-2 grid md:grid-cols-2   gap-3">
             <video src="/assets/video1.mp4" controls className="w-full h-96 rounded bg-black" />
             <video src="/assets/video2.mp4" controls className="w-full h-96 rounded bg-black" />
+            <video src="/assets/video3.mp4" controls className="w-full h-96 rounded bg-black" />
           </div>
         </div>
 
@@ -292,9 +293,9 @@ export default function App() {
               <ul className="mt-3 text-sm text-slate-700 space-y-1">
                 <li>WhatsApp: <a className="text-blue-700 font-medium" href={`https://wa.me/${PHONE_WHATSAPP}`}>0821-3844-3128</a></li>
                 <li>Email: <a href={`mailto:${EMAIL}`} className="text-blue-700">{EMAIL}</a></li>
-                <li>Instagram: <span className="font-medium">@SewaHiace07</span></li>
+                <li>Instagram: <span className="font-medium">@sewahiacesolo7</span></li>
                 <li>Facebook: <span className="font-medium">Transportasi Indonesia</span></li>
-                <li>TikTok: <span className="font-medium">Meygun</span></li>
+                <li>TikTok: <span className="font-medium">Meygun06</span></li>
                 <li>Alamat: Gebyog, Ngemplak, Kartasura</li>
               </ul>
             </div>
